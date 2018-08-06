@@ -1,0 +1,29 @@
+/*.tt-dropdown-menu {
+    margin-top: 10px !important;
+}
+.tt-suggestion a{color:#000;}
+.introkta{
+display: flex;
+    margin: 0px auto;
+    max-width: 1024px;}*/
+p.style1.txtright {
+    display: block;
+    margin-top: 22px;
+}
+
+.sf-branding-logo {
+    background: #181518;
+}
+
+.sf-branding-logo::after {
+    border-color: #181518 transparent transparent transparent;
+}
+
+.site-footer::before {
+    background: #181518;
+}
+
+.article-content [class^="important"]{
+    display: inherit;
+    vertical-align: middle;
+}
