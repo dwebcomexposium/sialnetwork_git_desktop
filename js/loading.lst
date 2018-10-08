@@ -5,7 +5,6 @@ modules/_commons.js
 modules/paginate.js
 modules/visual-navigation.js
 modules/searchform.js
-modules/swiper.js
 modules/tab-nav.js
 modules/newsletter.js
 modules/summary-not-accordeon.js
@@ -21,3 +20,4 @@ modules/scroll.js
 modules/sticky.js
 modules/tag-hide.js
 modules/sial-map-show.js
+modules/swiper.js
