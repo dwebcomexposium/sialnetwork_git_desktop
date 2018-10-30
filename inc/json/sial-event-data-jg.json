@@ -1,7 +1,7 @@
 {
   "paris":{
     "next": false,
-    "date": "21 - 25 OCTOBER 2018",
+    "date": "18 - 22 OCTOBER 2020",
     "country": "Paris",
     "location": "Paris Nord Villepinte",
     "image": "theme/sialnetwork_git_desktop/img/paris.jpg",
@@ -49,7 +49,7 @@
   },
   "new-delhi":{
     "next": true,
-    "date": "16 - 18 SEPTEMBER 2018",
+    "date": "19 - 21 SEPTEMBER 2019",
     "country": "New Delhi",
     "location": "Pragati Maidan Exhibition Center",
     "image": "theme/sialnetwork_git_desktop/img/new-delhi.jpg",
