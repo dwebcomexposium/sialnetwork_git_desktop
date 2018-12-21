@@ -32,7 +32,7 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Interfood-the-Indonesian-food-innovation-exhibition"
   },
   "toronto":{
-    "next": false,
+    "next": true,
     "date": "30 APRIL - 02 MAY 2019",
     "country": "Toronto",
     "location": "Enercare Center",
@@ -48,7 +48,7 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
   "new-delhi":{
-    "next": true,
+    "next": false,
     "date": "19 - 21 SEPTEMBER 2019",
     "country": "New Delhi",
     "location": "Pragati Maidan Exhibition Center",
