@@ -95,9 +95,11 @@
 
 		// bulle
         var gradient = c.createRadialGradient(x, y, 0.1, x, y, r);
-        gradient.addColorStop(0.1, "rgba(255,255,255," + this.alpha + ")");
-        gradient.addColorStop(0.8, "hsla(" + this.color + ", 100%, 50%, " + this.alpha + ")");
-        gradient.addColorStop(1, "hsla(" + this.color + ", 100%, 50%, 0.1)");
+        gradient.addColorStop(0.1, "rgba(190,158,88," + this.alpha + ")");
+        gradient.addColorStop(1, "rgba(148,118,50," + this.alpha + ")");
+//        gradient.addColorStop(0.8, "hsla(" + this.color + ", 60%, 30%, " + this.alpha + ")");
+//        gradient.addColorStop(1, "hsla(" + this.color + ", 60%, 30%, 0.1)");
+        gradient.addColorStop(1, "hsla(42, 49%, 39%, 0.1)");
 
         c.fillStyle = gradient;
 
@@ -133,6 +135,7 @@
             return Math.floor(Math.random() * (max - min + 1)) + min;
           }(0, 2);
           audio.src = sounds[randomNumber].prefix + sounds[randomNumber].data;
+			//3ma group
 			if ($('.cachu__nav__item.active').index() + 1 == 5) {
           audio.play();
 			}
@@ -176,9 +179,9 @@
             y = this.pos.y,
             r = this.size / 2;
 
-		// trace de tire	
+		// trace de tir
         var gradient = c.createRadialGradient(x, y, 0.1, x, y, r);
-        gradient.addColorStop(0.1, "rgba(255, 255, 255 ," + this.alpha + ")");
+        gradient.addColorStop(0.1, "rgba(148, 118, 50," + this.alpha + ")");
         gradient.addColorStop(1, "rgba(0, 0, 0, " + this.alpha + ")");
 
         c.fillStyle = gradient;

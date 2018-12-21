@@ -376,7 +376,9 @@ textarea {
 }
 html, body {
     overflow: hidden;
-    font-family: 'Satisfy', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
+	font-weight: 400;
+	font-style: italic;
     font-size: 62.5%;
     background-color: #fff;
 }
@@ -394,7 +396,7 @@ html, body {
 	position: absolute;
 	top: 50%; right: 50%;
 	transform: translate(50%,-50%);
-	width: 21%;
+	width: 22%;
 }
 
 .logo-assiette {
@@ -404,7 +406,7 @@ html, body {
 }
 
 .contain-txt {
-	font-size: 5.1rem;
+	font-size: 4.7rem;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -531,6 +533,7 @@ nav ul {
 	position: absolute;
 	bottom: 10px;
 	font-family: 'Roboto';
+	font-style: normal;
 /*	transform: translate(50%,-50%);*/
 }
 
@@ -647,6 +650,12 @@ body.mobile-device .bg-4 {
 	background-repeat: no-repeat,repeat;
 	background-image: url(../img/background4.jpg), url(../img/background1.jpg);
 }
+body.mobile-device .bg-6 {
+	background-position: center, center;
+	background-repeat: no-repeat,repeat;
+	background-image: url(../img/background6.jpg), url(../img/background6.jpg);
+}
+
 
 body.mobile-device .img-assiette {
 	background-size: 70%;
@@ -665,11 +674,6 @@ body.mobile-device .logo {
 
 /***** MEDIA QUERIES *****/
 
-@media (min-width: 1366px) {
-	.contain-btnin-txt {;
-		line-height: 5.4rem;
-	}
-}
 @media (max-width: 1366px) {
 	.img-assiette {
 		background-size: 50%;
@@ -679,9 +683,6 @@ body.mobile-device .logo {
 	}
 	nav ul.menu-right {
 		right: 30px;
-	}
-	.contain-txt {
-		font-size: 5rem;
 	}
 	.hl {
 		font-size: 5.6rem;
@@ -700,6 +701,11 @@ body.mobile-device .logo {
 	}
 	.right-polaroid {
 		padding-left: 5%;
+	}
+}
+@media (max-width: 1280px) {
+	.contain-txt {
+		font-size: 4.2rem;
 	}
 }
 
@@ -725,10 +731,10 @@ body.mobile-device .logo {
 		margin-bottom: 5px;
 	}
 	.contain-txt {
-		font-size: 6.4rem;
+		font-size: 4.4rem;
 	}
 	.hl {
-		font-size: 6.8rem;
+		font-size: 4.8rem;
 	}
 }
 
@@ -774,7 +780,16 @@ body.mobile-device .logo {
 		font-size: 5.8rem;
 	}
 	.hl {
-		font-size: 7.3rem;
+		font-size: 6rem;
+	}
+	body.mobile-device .block-contain {
+		width: 30%;
+	}
+	body.mobile-device .contain-txt {
+		font-size: 4rem;
+	}
+	body.mobile-device .hl {
+		font-size: 4rem;
 	}
 	.left-polaroid ul li:first-child {
 		text-align: right;
@@ -824,8 +839,11 @@ body.mobile-device .logo {
 	.img-assiette {
 		background-size: auto 65%;
 	}
+	.block-contain {
+		width: 60%;
+	}
 	.contain-txt {
-		font-size: 4.8rem;
+		font-size: 6.2rem;
 	}
 	.logo {
 		margin: 25px 10px;
