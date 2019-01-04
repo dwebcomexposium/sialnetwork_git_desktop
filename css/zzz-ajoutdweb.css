@@ -28,9 +28,3 @@ p.style1.txtright {
     vertical-align: middle;
 }
 
-.ac-oc-overlay {z-index : 10}
-
-@media screen and (min-width: 1440px)
-.sticky-link {
-    width: 130px;
-    display: none !important;}
