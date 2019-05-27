@@ -1,7 +1,7 @@
 {
     "toronto":{
     "next": false,
-    "date": "30 ARP - 02 MAY 2019",
+    "date": "27 - 29 April 2019",
     "country": "Toronto",
     "location": "Enercare Center",
     "image": "theme/sialnetwork_git_desktop/img/toronto.jpg",
@@ -41,7 +41,7 @@
   },
   "shanghai":{
     "next": false,
-    "date": "14 - 16 MAY 2019",
+    "date": "13 - 15 MAY 2020",
     "country": "Shanghai",
     "location": "SNIEC - Shanghai",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
