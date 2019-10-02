@@ -1,0 +1,79 @@
+{
+  "paris": {
+    "highlighted": false,
+    "displayed_date": "18-22 OCTOBER 2020",
+    "country": "Paris",
+    "start_date": "2020-10-18",
+    "end_date": "2020-10-22",
+    "is_sial_event": true,
+    "shortname": "SIAL Paris",
+    "image": "theme/sialnetwork_git_desktop/img/paris.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
+  },
+  "abu-dhabi": {
+    "highlighted": false,
+    "displayed_date": "9-11 DECEMBER 2019",
+    "country": "Abu-Dhabi",
+    "start_date": "2019-12-09",
+    "end_date": "2019-12-11",
+    "is_sial_event": true,
+    "shortname": "SIAL Middle East",
+    "image": "theme/sialnetwork_git_desktop/img/abu-dhabi.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Abu-Dhabi-the-Middle-East-food-innovation-exhibition"
+  },
+  "montreal": {
+    "highlighted": false,
+    "displayed_date": "15-17 APRIL 2020",
+    "country": "Montréal",
+    "start_date": "2020-04-15",
+    "end_date": "2020-04-17",
+    "is_sial_event": true,
+    "shortname": "SIAL Canada",
+    "image": "theme/sialnetwork_git_desktop/img/montreal.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
+  },
+  "jakarta": {
+    "highlighted": false,
+    "displayed_date": "13-16 NOVEMBER 2019",
+    "country": "Jakarta",
+    "start_date": "2019-11-13",
+    "end_date": "2019-11-16",
+    "is_sial_event": true,
+    "shortname": "SIAL Interfood",
+    "image": "theme/sialnetwork_git_desktop/img/jakarta.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Interfood-the-Indonesian-food-innovation-exhibition"
+  },
+  "toronto": {
+    "highlighted": true,
+    "displayed_date": "27-29 APRIL 2021",
+    "country": "Toronto",
+    "start_date": "2021-04-27",
+    "end_date": "2021-04-29",
+    "is_sial_event": true,
+    "shortname": "SIAL Canada",
+    "image": "theme/sialnetwork_git_desktop/img/toronto.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
+  },
+  "shanghai": {
+    "highlighted": false,
+    "displayed_date": "13-15 MAY 2020",
+    "country": "Shanghai",
+    "start_date": "2020-05-13",
+    "end_date": "2020-05-15",
+    "is_sial_event": true,
+    "shortname": "SIAL China",
+    "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
+  },
+  "new-delhi": {
+    "highlighted": false,
+    "displayed_date": "19-21 SEPTEMBER 2019",
+    "country": "New Delhi",
+    "start_date": "2019-09-19",
+    "end_date": "2019-09-21",
+    "is_sial_event": true,
+    "shortname": "SIAL India",
+    "image": "theme/sialnetwork_git_desktop/img/india.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
+  }
+}

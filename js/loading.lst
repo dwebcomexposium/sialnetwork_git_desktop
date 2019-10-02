@@ -20,4 +20,5 @@ modules/scroll.js
 modules/sticky.js
 modules/tag-hide.js
 modules/sial-map-show.js
+modules/sial-featured-events-block.js
 modules/swiper.js
