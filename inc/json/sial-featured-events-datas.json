@@ -75,5 +75,27 @@
     "shortname": "SIAL India",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
+  },
+  "djazagro": {
+    "highlighted": false,
+    "displayed_date": "06-09 APRIL 2020",
+    "country": "Alger",
+    "start_date": "2020-04-06",
+    "end_date": "2020-04-09",
+    "is_sial_event": false,
+    "shortname": "Djazagro",
+    "image": "theme/sialnetwork_git_desktop/img/djazagro.jpg",
+    "link": "https://www.djazagro.com/"
+  },
+  "gourmet-selection": {
+    "highlighted": false,
+    "displayed_date": "13-14 SEPTEMBER 2020",
+    "country": "Paris",
+    "start_date": "2020-09-13",
+    "end_date": "2020-09-14",
+    "is_sial_event": false,
+    "shortname": "Gourmet Selection",
+    "image": "theme/sialnetwork_git_desktop/img/gourmet-selection.jpg",
+    "link": "https://www.salon-gourmet-selection.com/"
   }
 }
