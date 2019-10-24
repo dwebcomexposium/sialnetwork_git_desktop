@@ -20,7 +20,7 @@
                     if (difference_with_start_date == 0 || difference_with_start_date < 0 && difference_with_end_date >= 0) {
                         countdown_to_append += ' - <span class="countdown">LIVE</span>';
                     } else if (difference_with_start_date > 0 && difference_with_start_date <= 60) {
-                        countdown_to_append += ' - <span class="countdown">T-' + difference_with_start_date + '</span>';
+                        countdown_to_append += ' - <span class="countdown">D-' + difference_with_start_date + '</span>';
                     }
                     list_element.find('.event-shortname').append(countdown_to_append);
                     block_featured_events.find('.events-list').append(list_element);
