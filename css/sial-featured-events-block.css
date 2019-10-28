@@ -19,7 +19,7 @@
 .sial-featured-events_block .align-left {
   width: 81.45%;
   background: url("img/sial-featured-events-block-bg.jpg") 0 50% no-repeat #00050a;
-  padding: 0 calc(7.47% - 2.85rem) 0 calc(20.09% - 2.85rem);
+  padding: 0 calc(7% - 2.85rem) 0 calc(20% - 2.85rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,6 +179,7 @@
 .sial-featured-events_block .event-highlighted {
   color: #09060A;
   display: none;
+  max-width: 100%;
 }
 
 .sial-featured-events_block .event-highlighted .event-shortname {

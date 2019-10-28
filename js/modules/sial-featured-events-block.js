@@ -7,27 +7,27 @@
         if (block_featured_events.length) {
             getDatas(function() {
                 var now = new Date();
-                for (var event_data in events_datas) {
-                    var start_date = new Date(events_datas[event_data].start_date);
-                    var end_date = new Date(events_datas[event_data].end_date);
+                events_datas.forEach(function(event_data, index) {
+                    var start_date = new Date(event_data.start_date);
+                    var end_date = new Date(event_data.end_date);
                     var difference_with_start_date = dateDiffInDays(now, start_date);
                     var difference_with_end_date = dateDiffInDays(now, end_date);
-                    var list_element = $('<li class="event-element" data-key="' + event_data + '"><p class="event-shortname"><span>' + events_datas[event_data].shortname + '</span></p><p class="event-country"><span>' + events_datas[event_data].country + '</span></p></li>');
-                    if (events_datas[event_data].is_sial_event) {
+                    var list_element = $('<li class="event-element" data-key="' + index + '"><p class="event-shortname"><span>' + event_data.shortname + '</span></p><p class="event-country"><span>' + event_data.country + '</span></p></li>');
+                    if (event_data.is_sial_event) {
                         list_element.addClass('is_sial_event');
                     }
                     var countdown_to_append = '';
-                    if (difference_with_start_date == 0 || difference_with_start_date < 0 && difference_with_end_date >= 0) {
+                    if (difference_with_start_date === 0 || difference_with_start_date < 0 && difference_with_end_date >= 0) {
                         countdown_to_append += ' - <span class="countdown">LIVE</span>';
                     } else if (difference_with_start_date > 0 && difference_with_start_date <= 60) {
                         countdown_to_append += ' - <span class="countdown">D-' + difference_with_start_date + '</span>';
                     }
                     list_element.find('.event-shortname').append(countdown_to_append);
                     block_featured_events.find('.events-list').append(list_element);
-                    if (events_datas[event_data].highlighted) {
+                    if (event_data.highlighted) {
                         updateHighlightedEvent(list_element);
                     }
-                }
+                });
                 $(document).on('click', '.sial-featured-events_block .event-element:not(.current)', function(e) {
                     e.preventDefault();
                     updateHighlightedEvent($(this));
@@ -57,18 +57,32 @@
         }
     }
     function getDatas(callback) {
-        if (typeof ouragan_sial_events_datas != 'undefined') {
-            events_datas = ouragan_sial_events_datas;
+        if (typeof ouragan_sial_events_datas !== 'undefined') {
+            events_datas = sortDatas(ouragan_sial_events_datas);
             if (callback) {
                 callback();
             }
         } else {
             $.getJSON(block_featured_events.attr('data-url')).done(function(datas) {
-                events_datas = datas;
+                events_datas = sortDatas(datas);
                 if (callback) {
                     callback();
                 }
             });
         }
+    }
+    function sortDatas(datas) {
+        var new_datas = Object.keys(datas).map(function(e) {
+            return datas[e];
+        }).sort(function(a, b) {
+            return a.shortname.localeCompare(b.shortname);
+        });
+        var sial_events_datas = new_datas.filter(function(event_data) {
+            return event_data.is_sial_event;
+        });
+        var other_events_datas = new_datas.filter(function(event_data) {
+            return !event_data.is_sial_event;
+        });
+        return sial_events_datas.concat(other_events_datas);
     }
 })(jQuery);
