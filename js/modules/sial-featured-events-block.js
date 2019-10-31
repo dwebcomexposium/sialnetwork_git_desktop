@@ -3,6 +3,7 @@
     var block_featured_events = $('.sial-featured-events_block');
     var events_datas = {};
     var _MS_PER_DAY = 1e3 * 60 * 60 * 24;
+    var auto_switch_event_interval = false;
     $(document).ready(function() {
         if (block_featured_events.length) {
             getDatas(function() {
@@ -41,6 +42,19 @@
         return Math.floor((utc2 - utc1) / _MS_PER_DAY);
     }
     function updateHighlightedEvent(list_element) {
+        if (auto_switch_event_interval !== false) {
+            clearInterval(auto_switch_event_interval);
+        }
+        auto_switch_event_interval = setInterval(function() {
+            var current_event = $('.sial-featured-events_block .event-element.current');
+            if (current_event.length) {
+                var next_element = current_event.next('.event-element');
+                if (!next_element.length) {
+                    next_element = $('.sial-featured-events_block .event-element:first-of-type');
+                }
+                updateHighlightedEvent(next_element);
+            }
+        }, 5e3);
         list_element.addClass('current').siblings('.event-element').removeClass('current');
         var existing_highlighted_event = block_featured_events.find('.align-right .event-highlighted');
         var datas = events_datas[list_element.attr('data-key')];
