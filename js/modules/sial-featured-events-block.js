@@ -13,7 +13,7 @@
                     var end_date = new Date(event_data.end_date);
                     var difference_with_start_date = dateDiffInDays(now, start_date);
                     var difference_with_end_date = dateDiffInDays(now, end_date);
-                    var list_element = $('<li class="event-element" data-key="' + index + '"><p class="event-shortname"><span>' + event_data.shortname + '</span></p><p class="event-country"><span>' + event_data.country + '</span></p></li>');
+                    var list_element = $('<li data-diff-start-date="' + difference_with_start_date + '" class="event-element" data-key="' + index + '"><p class="event-shortname"><span>' + event_data.shortname + '</span></p><p class="event-country"><span>' + event_data.country + '</span></p></li>');
                     if (event_data.is_sial_event) {
                         list_element.addClass('is_sial_event');
                     }
@@ -25,10 +25,25 @@
                     }
                     list_element.find('.event-shortname').append(countdown_to_append);
                     block_featured_events.find('.events-list').append(list_element);
-                    if (event_data.highlighted) {
-                        updateHighlightedEvent(list_element);
+                });
+                var next_show = false;
+                block_featured_events.find('.event-element').each(function() {
+                    var difference_with_start_date = parseInt($(this).attr('data-diff-start-date'));
+                    if (difference_with_start_date > 0) {
+                        if (next_show) {
+                            var compare_difference_with_start_date = parseInt(next_show.attr('data-diff-start-date'));
+                            if (difference_with_start_date < compare_difference_with_start_date) {
+                                $(this).addClass('is-next-show').siblings().removeClass('is-next-show');
+                                next_show = $(this);
+                            }
+                        } else {
+                            next_show = $(this);
+                        }
                     }
                 });
+                if (next_show) {
+                    updateHighlightedEvent(next_show);
+                }
                 $(document).on('click', '.sial-featured-events_block .event-element:not(.current)', function(e) {
                     e.preventDefault();
                     updateHighlightedEvent($(this));
@@ -59,6 +74,9 @@
         var existing_highlighted_event = block_featured_events.find('.align-right .event-highlighted');
         var datas = events_datas[list_element.attr('data-key')];
         var new_highlighted_event = $('<div class="event-highlighted is_sial_event"><p class="event-shortname">' + datas.shortname + '</p><p class="event-country"><span>' + datas.country + '</span></p><p class="event-date">' + datas.displayed_date + '</p><img src="' + datas.image + '" alt="' + datas.shortname + '" /><a href="' + datas.link + '" title="More information about this event">Be inspired</a></div>');
+        if (list_element.hasClass('is-next-show')) {
+            new_highlighted_event.addClass('is-next-show').prepend('<p class="next-show">Next Show</p>');
+        }
         if (existing_highlighted_event.length) {
             existing_highlighted_event.fadeOut(200, function() {
                 $(this).remove();

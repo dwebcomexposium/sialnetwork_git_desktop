@@ -78,6 +78,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  position: relative;
 }
 
 .sial-featured-events_block p {
@@ -180,6 +181,24 @@
   color: #09060A;
   display: none;
   max-width: 100%;
+}
+
+.sial-featured-events_block .event-highlighted.is-next-show {
+  padding-top: 5rem;
+}
+
+.sial-featured-events_block .event-highlighted .next-show {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  background: red;
+  line-height: 2.6rem;
+  color: #fff;
+  padding: 0.8rem;
+}
+
+.sial-featured-events_block .event-highlighted .next-show + p {
+  margin-top: 0;
 }
 
 .sial-featured-events_block .event-highlighted .event-shortname {
