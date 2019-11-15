@@ -4,7 +4,7 @@
     var events_datas = {};
     var _MS_PER_DAY = 1e3 * 60 * 60 * 24;
     var auto_switch_event_interval = false;
-    $(document).ready(function() {
+    $(function() {
         if (block_featured_events.length) {
             getDatas(function() {
                 var now = new Date();
