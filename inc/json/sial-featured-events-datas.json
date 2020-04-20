@@ -20,10 +20,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Abu-Dhabi-the-Middle-East-food-innovation-exhibition"
   },
   "montreal": {
-    "displayed_date": "05-07 AUGUST 2020",
+    "displayed_date": "29 Septembre – 01 Octobre",
     "country": "Montréal",
-    "start_date": "2020-04-15",
-    "end_date": "2020-04-17",
+    "start_date": "2020-09-29",
+    "end_date": "2020-10-10",
     "is_sial_event": true,
     "shortname": "SIAL Canada",
     "image": "theme/sialnetwork_git_desktop/img/montreal.jpg",
@@ -60,10 +60,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
   "new-delhi": {
-    "displayed_date": "17-19 SEPTEMBER 2020",
+    "displayed_date": " 03 – 05 December",
     "country": "New Delhi",
-    "start_date": "2020-09-17",
-    "end_date": "2020-09-19",
+    "start_date": "2020-12-03",
+    "end_date": "2020-12-05",
     "is_sial_event": true,
     "shortname": "SIAL India",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
