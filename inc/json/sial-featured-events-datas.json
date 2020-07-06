@@ -10,10 +10,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
   },
   "abu-dhabi": {
-    "displayed_date": "8-10 SEPTEMBER 2020",
+    "displayed_date": "07-09 SEPTEMBER 2021",
     "country": "Abu-Dhabi",
-    "start_date": "2019-12-09",
-    "end_date": "2019-12-11",
+    "start_date": "2021-09-07",
+    "end_date": "2021-09-09",
     "is_sial_event": true,
     "shortname": "SIAL Middle East",
     "image": "theme/sialnetwork_git_desktop/img/abu-dhabi.jpg",
@@ -52,8 +52,8 @@
   "shanghai": {
     "displayed_date": "28-30 SEPTEMBER 2020",
     "country": "Shanghai",
-    "start_date": "2020-05-13",
-    "end_date": "2020-05-15",
+    "start_date": "2020-09-28",
+    "end_date": "2020-09-30",
     "is_sial_event": true,
     "shortname": "SIAL China",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
@@ -72,8 +72,8 @@
   "djazagro": {
     "displayed_date": "21-24 SEPTEMBER 2020",
     "country": "Alger",
-    "start_date": "2020-04-06",
-    "end_date": "2020-04-09",
+    "start_date": "2020-09-21",
+    "end_date": "2020-09-24",
     "is_sial_event": false,
     "shortname": "Djazagro",
     "image": "theme/sialnetwork_git_desktop/img/djazagro.jpg",
