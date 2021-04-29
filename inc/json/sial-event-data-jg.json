@@ -1,7 +1,7 @@
 {
   "paris":{
     "next": false,
-    "date": "18 - 22 OCTOBER 2020",
+    "date": "15-19 OCT. 2022",
     "country": "Paris",
     "location": "Paris Nord Villepinte",
     "image": "theme/sialnetwork_git_desktop/img/paris.jpg",
@@ -9,7 +9,7 @@
   },
   "abu-dhabi":{
     "next": false,
-    "date": "07-09 SEPT 2021",
+    "date": "7-9 SEPT. 2021",
     "country": "Abu-Dhabi",
     "location": "Abu Dhabi National Exhibition Centre",
     "image": "theme/sialnetwork_git_desktop/img/abu-dhabi.jpg",
@@ -17,7 +17,7 @@
   },
   "montreal":{
     "next": false,
-    "date": "29 September – 01 October 2020",
+    "date": "20-22 APR. 2022",
     "country": "Montréal",
     "location": "Montreal convention Center",
     "image": "theme/sialnetwork_git_desktop/img/montreal.jpg",
@@ -25,7 +25,7 @@
   },
   "jakarta":{
     "next": false,
-    "date": "11 - 14 NOV. 2020",
+    "date": "10-13 NOV. 2021",
     "country": "Jakarta",
     "location": "JI Expo, Kemayoran",
     "image": "theme/sialnetwork_git_desktop/img/jakarta.jpg",
@@ -33,7 +33,7 @@
   },
   "toronto":{
     "next": true,
-    "date": "27-29 APRIL 2021",
+    "date": "21-23 SEPT. 2021",
     "country": "Toronto",
     "location": "Enercare Center",
     "image": "theme/sialnetwork_git_desktop/img/toronto.jpg",
@@ -41,7 +41,7 @@
   },
   "shanghai":{
     "next": false,
-    "date": "28-30 SEPTEMBER 2020",
+    "date": "18-20 MAY 2021",
     "country": "Shanghai",
     "location": "SNIEC - Shanghai",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
@@ -49,7 +49,7 @@
   },
   "new-delhi":{
     "next": false,
-    "date": "03 – 05 December",
+    "date": "9-11 DEC. 2021",
     "country": "New Delhi",
     "location": "Pragati Maidan Exhibition Center",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
