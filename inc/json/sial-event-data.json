@@ -46,5 +46,13 @@
     "location": "SNIEC - Shanghai",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
     "link": "SIAL-Network/SIAL-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
+  },
+   "shenzhen":{
+    "next": false,
+    "date": "18-20 MAY 2021",
+    "country": "Shenzhen",
+    "location": "SNIEC - Shenzhen",
+    "image": "theme/sialnetwork_git_desktop/img/shenzen.jpg",
+    "link": "SIAL-Network/SIAL-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   }
 }
