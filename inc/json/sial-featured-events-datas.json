@@ -59,6 +59,14 @@
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
+  "shenzhen":{
+    "next": false,
+    "date": "28-30 OCT. 2021",
+    "country": "Shenzhen",
+    "location": "SNIEC - Shenzhen",
+    "image": "theme/sialnetwork_git_desktop/img/shenzen.jpg",
+    "link": "SIAL-Network/SIAL-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
+  },
   "new-delhi": {
     "displayed_date": "9-11 DECEMBER 2021",
     "country": "New Delhi",
