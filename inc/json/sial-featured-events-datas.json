@@ -98,5 +98,15 @@
     "shortname": "Gourmet Selection",
     "image": "theme/sialnetwork_git_desktop/img/gourmet-selection.jpg",
     "link": "https://www.salon-gourmet-selection.com/"
+  },
+  "gourmet-discovery": {
+    "displayed_date": "4-5 AVRIL 2022",
+    "country": "Hamburg",
+    "start_date": "2022-04-04",
+    "end_date": "2022-04-05",
+    "is_sial_event": false,
+    "shortname": "Gourmet Discovery",
+    "image": "theme/sialnetwork_git_desktop/img/discovery.jpg",
+    "link": "https://www.gourmet-discovery.de/"
   }
 }
