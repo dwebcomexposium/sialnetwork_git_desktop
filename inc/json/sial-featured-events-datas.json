@@ -55,7 +55,7 @@
     "start_date": "2021-05-18",
     "end_date": "2021-05-20",
     "is_sial_event": true,
-    "shortname": "SIAL China",
+    "shortname": "SIAL in China Shanghai",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
@@ -65,7 +65,7 @@
     "start_date": "2021-10-28",
     "end_date": "2021-10-300",
     "is_sial_event": true,
-    "shortname": "SIAL China South",
+    "shortname": "SIAL in China South",
     "image": "theme/sialnetwork_git_desktop/img/shenzen.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
