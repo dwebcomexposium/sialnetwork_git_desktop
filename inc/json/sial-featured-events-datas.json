@@ -49,6 +49,16 @@
     "image": "theme/sialnetwork_git_desktop/img/toronto.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
   },
+    "las vegas": {
+    "displayed_date": "22-24 MARCH 2021",
+    "country": "LAs Vegas",
+    "start_date": "2021-03-22",
+    "end_date": "2021-03-24",
+    "is_sial_event": true,
+    "shortname": "SIAL Las Vegas",
+    "image": "theme/sialnetwork_git_desktop/img/lasvegas.jpg",
+    "link": "/SIAL-exhibitions/SIAL-America-Las-Vegas"
+  },
   "shanghai": {
     "displayed_date": "18-20 MAY 2021",
     "country": "Shanghai",
