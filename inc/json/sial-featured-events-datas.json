@@ -60,10 +60,10 @@
     "link": "/SIAL-exhibitions/SIAL-America-Las-Vegas"
   },
   "shanghai": {
-    "displayed_date": "18-20 MAY 2021",
+    "displayed_date": "18-20 MAY 2022",
     "country": "Shanghai",
-    "start_date": "2021-05-18",
-    "end_date": "2021-05-20",
+    "start_date": "2022-05-18",
+    "end_date": "2022-05-20",
     "is_sial_event": true,
     "shortname": "SIAL in China Shanghai",
     "image": "theme/sialnetwork_git_desktop/img/shanghai.jpg",
