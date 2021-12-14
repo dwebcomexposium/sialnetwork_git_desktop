@@ -50,10 +50,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
   },
     "las vegas": {
-    "displayed_date": "22-24 MARCH 2021",
+    "displayed_date": "22-24 MARCH 2022",
     "country": "Las Vegas",
-    "start_date": "2021-03-22",
-    "end_date": "2021-03-24",
+    "start_date": "2022-03-22",
+    "end_date": "2022-03-24",
     "is_sial_event": true,
     "shortname": "SIAL America",
     "image": "theme/sialnetwork_git_desktop/img/lasvegas.jpg",
@@ -90,7 +90,7 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
   },
   "djazagro": {
-    "displayed_date": "22-25 NOVEMBRE 2021",
+    "displayed_date": "30 MAY - 2 JUNE 2022",
     "country": "Alger",
     "start_date": "2021-11-22",
     "end_date": "2021-11-25",
@@ -100,10 +100,10 @@
     "link": "https://www.djazagro.com/"
   },
   "gourmet-selection": {
-    "displayed_date": "18-19 SEPTEMBRE 2022",
+    "displayed_date": "25-26 SEPTEMBER 2022",
     "country": "Paris",
-    "start_date": "2021-09-12",
-    "end_date": "2021-09-13",
+    "start_date": "2022-09-25",
+    "end_date": "2022-09-26",
     "is_sial_event": false,
     "shortname": "Gourmet Selection",
     "image": "theme/sialnetwork_git_desktop/img/gourmet-selection.jpg",
