@@ -85,7 +85,17 @@
     "start_date": "2021-12-09",
     "end_date": "2021-12-11",
     "is_sial_event": true,
-    "shortname": "SIAL India",
+    "shortname": "SIAL in India",
+    "image": "theme/sialnetwork_git_desktop/img/india.jpg",
+    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
+  },
+  "mumbai": {
+    "displayed_date": "9-11 DECEMBER 2021",
+    "country": "Mumbai",
+    "start_date": "2021-12-09",
+    "end_date": "2021-12-11",
+    "is_sial_event": true,
+    "shortname": "SIAL in India Mumbai",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
   },
