@@ -10,10 +10,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
   },
   "abu-dhabi": {
-    "displayed_date": "07-09 SEPTEMBER 2021",
+    "displayed_date": "06-08 DECEMBER 2022",
     "country": "Abu-Dhabi",
-    "start_date": "2021-09-07",
-    "end_date": "2021-09-09",
+    "start_date": "2022-12-06",
+    "end_date": "2022-12-08",
     "is_sial_event": true,
     "shortname": "SIAL Middle East",
     "image": "theme/sialnetwork_git_desktop/img/abu-dhabi.jpg",
@@ -40,12 +40,12 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Interfood-the-Indonesian-food-innovation-exhibition"
   },
   "toronto": {
-    "displayed_date": "21-23 SEPTEMBER 2021",
+    "displayed_date": "9-11 MAY 2023",
     "country": "Toronto",
-    "start_date": "2021-09-21",
-    "end_date": "2021-09-23",
+    "start_date": "2023-05-09",
+    "end_date": "2023-05-11",
     "is_sial_event": true,
-    "shortname": "SIAL Canada",
+    "shortname": "SIAL Canada Toronto",
     "image": "theme/sialnetwork_git_desktop/img/toronto.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
   },
@@ -80,20 +80,20 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
   "new-delhi": {
-    "displayed_date": "9-11 DECEMBER 2021",
+    "displayed_date": "1-3 DECEMBER 2022",
     "country": "New Delhi",
-    "start_date": "2021-12-09",
-    "end_date": "2021-12-11",
+    "start_date": "2022-12-01",
+    "end_date": "2022-12-03",
     "is_sial_event": true,
-    "shortname": "SIAL in India",
+    "shortname": "SIAL in India New Delhi",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
   },
   "mumbai": {
-    "displayed_date": "10-12 MAY 2022",
+    "displayed_date": "18-20 AUGUST 2022",
     "country": "Mumbai",
-    "start_date": "2022-05-10",
-    "end_date": "2022-05-12",
+    "start_date": "2022-08-18",
+    "end_date": "2022-08-20",
     "is_sial_event": true,
     "shortname": "SIAL in India Mumbai",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
@@ -101,11 +101,11 @@
   },
   "djazagro": {
     "displayed_date": "30 MAY - 2 JUNE 2022",
-    "country": "Alger",
+    "country": "Algiers",
     "start_date": "2021-11-22",
     "end_date": "2021-11-25",
     "is_sial_event": false,
-    "shortname": "Djazagro",
+    "shortname": "Djazagro Algiers",
     "image": "theme/sialnetwork_git_desktop/img/djazagro.jpg",
     "link": "https://www.djazagro.com/"
   },
@@ -120,7 +120,7 @@
     "link": "https://www.salon-gourmet-selection.com/"
   },
   "gourmet-discovery": {
-    "displayed_date": "4-5 AVRIL 2022",
+    "displayed_date": "4-5 APRIL 2022",
     "country": "Hamburg",
     "start_date": "2022-04-04",
     "end_date": "2022-04-05",
