@@ -9,16 +9,6 @@
     "image": "theme/sialnetwork_git_desktop/img/paris.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
   },
-  "abu-dhabi": {
-    "displayed_date": "06-08 DECEMBER 2022",
-    "country": "Abu-Dhabi",
-    "start_date": "2022-12-06",
-    "end_date": "2022-12-08",
-    "is_sial_event": true,
-    "shortname": "SIAL Middle East",
-    "image": "theme/sialnetwork_git_desktop/img/abu-dhabi.jpg",
-    "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Abu-Dhabi-the-Middle-East-food-innovation-exhibition"
-  },
   "montreal": {
     "displayed_date": "20-22 APRIL 2022",
     "country": "Montréal",
@@ -60,7 +50,7 @@
     "link": "/SIAL-exhibitions/SIAL-America-Las-Vegas"
   },
   "shanghai": {
-    "displayed_date": "18-20 MAY 2022",
+    "displayed_date": "7-9 DECEMBER 2022",
     "country": "Shanghai",
     "start_date": "2022-05-18",
     "end_date": "2022-05-20",
