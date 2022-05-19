@@ -10,7 +10,7 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
   },
   "montreal": {
-    "displayed_date": "20-22 APRIL 2022",
+    "displayed_date": "03-05 APRIL 2024",
     "country": "Montréal",
     "start_date": "2022-04-20",
     "end_date": "2022-04-01",
@@ -40,7 +40,7 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Canada-the-North-American-food-innovation-exhibition"
   },
     "las vegas": {
-    "displayed_date": "22-24 MARCH 2022",
+    "displayed_date": "28-30 MARCH 2023",
     "country": "Las Vegas",
     "start_date": "2022-03-22",
     "end_date": "2022-03-24",
@@ -65,7 +65,7 @@
     "start_date": "2021-10-31",
     "end_date": "2021-11-02",
     "is_sial_event": true,
-    "shortname": "SIAL in China South",
+    "shortname": "SIAL in China",
     "image": "theme/sialnetwork_git_desktop/img/shenzen.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
