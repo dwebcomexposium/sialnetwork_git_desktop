@@ -80,20 +80,20 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/Food-India-inspired-by-SIAL-the-new-Indian-food-innovation-exhibition"
   },
   "mumbai": {
-    "displayed_date": "18-20 AUGUST 2022",
+    "displayed_date": "4-6 MAY 2023",
     "country": "Mumbai",
-    "start_date": "2022-08-18",
-    "end_date": "2022-08-20",
+    "start_date": "2023-05-04",
+    "end_date": "2023-05-06",
     "is_sial_event": true,
     "shortname": "SIAL in India Mumbai",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
     "link": "https://www.sialindia.com/wp-content/uploads/2021/12/SIAL-Mumbai-Brochure.pdf"
   },
   "djazagro": {
-    "displayed_date": "30 MAY - 2 JUNE 2022",
+    "displayed_date": "5-8 JUNE 2023",
     "country": "Algiers",
-    "start_date": "2021-11-22",
-    "end_date": "2021-11-25",
+    "start_date": "2023-06-05",
+    "end_date": "2023-06-08",
     "is_sial_event": false,
     "shortname": "Djazagro Algiers",
     "image": "theme/sialnetwork_git_desktop/img/djazagro.jpg",
@@ -110,10 +110,10 @@
     "link": "https://www.salon-gourmet-selection.com/"
   },
   "gourmet-discovery": {
-    "displayed_date": "4-5 APRIL 2022",
+    "displayed_date": "3-4 APRIL 2023",
     "country": "Hamburg",
-    "start_date": "2022-04-04",
-    "end_date": "2022-04-05",
+    "start_date": "2023-04-03",
+    "end_date": "2023-04-04",
     "is_sial_event": false,
     "shortname": "Gourmet Discovery",
     "image": "theme/sialnetwork_git_desktop/img/discovery.jpg",
