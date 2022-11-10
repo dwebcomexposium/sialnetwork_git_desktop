@@ -1,6 +1,5 @@
 vendor/jquery/jquery.min.js
 vendor/hammerjs/hammer.min.js
-cookies-warning.min.js
 modules/_commons.js
 modules/paginate.js
 modules/visual-navigation.js
