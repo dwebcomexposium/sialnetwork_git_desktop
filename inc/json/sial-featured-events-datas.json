@@ -109,4 +109,14 @@
     "image": "theme/sialnetwork_git_desktop/img/gourmet-selection.jpg",
     "link": "https://www.salon-gourmet-selection.com/"
   }
+    "sfpl": {
+    "displayed_date": "25 - 28 February 2024",
+    "country": "Paris",
+    "start_date": "2024-02-25",
+    "end_date": "2024-02-28",
+    "is_sial_event": false,
+    "shortname": "Cheese & Dairy products show Paris",
+    "image": "theme/sialnetwork_git_desktop/img/sfpl.jpg",
+    "link": "https://www.salon-fromage.com/"
+  }
 }
