@@ -9,16 +9,6 @@
     "image": "theme/sialnetwork_git_desktop/img/paris.jpg",
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Paris-the-world-s-largest-food-innovation-exhibition"
   },
-  "las vegas": {
-    "displayed_date": "28-30 MARCH 2023",
-    "country": "Las Vegas",
-    "start_date": "2022-03-22",
-    "end_date": "2022-03-24",
-    "is_sial_event": true,
-    "shortname": "SIAL America",
-    "image": "theme/sialnetwork_git_desktop/img/lasvegas.jpg",
-    "link": "/SIAL-exhibitions/SIAL-America-Las-Vegas"
-  },
   "montreal": {
     "displayed_date": "15-17 MAY 2024",
     "country": "Montréal",
