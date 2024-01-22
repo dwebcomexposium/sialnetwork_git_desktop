@@ -70,10 +70,10 @@
     "link": "/SIAL-exhibitions/A-network-of-leading-food-and-beverage-exhibitions/SIAL-Shanghai-Asia-s-largest-food-innovation-exhibition"
   },
   "new-delhi": {
-    "displayed_date": "19-21 DECEMBER 2024",
+    "displayed_date": "5-7 DECEMBER 2024",
     "country": "New Delhi",
-    "start_date": "2023-12-07",
-    "end_date": "2023-12-09",
+    "start_date": "2024-12-05",
+    "end_date": "2024-12-07",
     "is_sial_event": true,
     "shortname": "SIAL in India",
     "image": "theme/sialnetwork_git_desktop/img/india.jpg",
@@ -82,8 +82,8 @@
   "djazagro": {
     "displayed_date": "22-25 APRIL 2024",
     "country": "Algiers",
-    "start_date": "2023-06-05",
-    "end_date": "2023-06-08",
+    "start_date": "2024-04-22",
+    "end_date": "2024-04-25",
     "is_sial_event": false,
     "shortname": "Djazagro",
     "image": "theme/sialnetwork_git_desktop/img/djazagro.jpg",
